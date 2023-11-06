@@ -1,0 +1,15 @@
+.scrollbarHidden { 
+    max-height: 100vh;
+    overflow-y: auto; 
+    text-align: center;
+}
+.scrollbarHidden::-webkit-scrollbar {
+    display: none;
+}
+.miniImg {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border: 1px solid #26201A;
+    border-radius: 5px;
+}
